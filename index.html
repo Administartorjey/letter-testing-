@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper" id="envelope-wrapper">
+            <div class="envelope" id="envelope">
+                <div class="front">
+                    <div class="wax-seal" id="wax-seal">❤</div>
+                    <div class="instructions">Click the seal</div>
+                </div>
+                <div class="letter" id="letter">
+                    <div class="letter-content">
+                        <div class="letter-header">
+                            <h1>To Someone Special</h1>
+                        </div>
+                        <div class="letter-text">
+                            <p>There's something about you that makes my day brighter...</p>
+                            <p>Your smile is contagious and your laugh is music to my ears.</p>
+                            <p>Every moment with you feels like a beautiful adventure.</p>
+                        </div>
+                        <div class="letter-photo-frame">
+                            <img src="placeholder.jpg" alt="Our Memory" class="letter-photo">
+                            <div class="photo-caption">Our Special Moment</div>
+                        </div>
+                        <div class="letter-footer">
+                            <p>With care,</p>
+                            <p class="signature">[Your Name]</p>
+                            <div class="heart-mark">❤</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="floating-hearts" id="floating-hearts"></div>
+        <div class="music-controls" id="music-controls" style="display: none;">
+            <button id="music-toggle">♫ Pause Music</button>
+            <audio id="bg-music" loop>
+                <source src="music/music.mp3" type="audio/mpeg">
+                Your browser doesn't support audio.
+            </audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
